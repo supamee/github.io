@@ -1,0 +1,14 @@
+# Jekyll / GitHub Pages build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby / Bundler (only if you run Jekyll locally)
+Gemfile.lock
+vendor/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
