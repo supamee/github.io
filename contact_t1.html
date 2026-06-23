@@ -60,6 +60,23 @@
       font-weight: 700;
     }
 
+    .home-icon {
+      display: inline-block;
+      margin: 0 0 16px;
+    }
+
+    .home-icon img {
+      display: block;
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      transition: transform 0.08s ease;
+    }
+
+    .home-icon:hover img {
+      transform: translateY(-2px) scale(1.03);
+    }
+
     .contact-list {
       text-align: left;
       margin: 24px 0;
@@ -132,6 +149,9 @@
 <link rel="icon" type="image/png" href="images/turbine.svg" />
 <body>
   <main class="card">
+    <a class="home-icon" href="index.html" aria-label="Back to homepage">
+      <img src="images/goat_icon.png" alt="Home" />
+    </a>
     <h1>Elliott Twilley</h1>
     <p class="subtitle">ML Engineer - TurbineOne</p>
 
